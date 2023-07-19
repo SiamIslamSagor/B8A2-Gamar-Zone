@@ -301,7 +301,6 @@ ul li {
 .games-line-1:hover {
     border: 1px solid #FF42A5;
     cursor: pointer;
-    transition: opacity 0.3s;
 
 }
 
@@ -313,9 +312,13 @@ ul li {
 /* footer section */
 
 
+.main-foot {
+    background: #0B0223;
+}
+
 .foot {
     height: 600px;
-    background: #0B0223;
+    /* background: #0B0223; */
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -334,12 +337,12 @@ ul li {
     /* margin: 60px 0; */
 }
 
-.foot-3{
+.foot-3 {
     gap: 50px;
     cursor: pointer;
 }
 
-.foot-3 p{
+.foot-3 p {
     color: rgba(255, 255, 255, 0.60);
 }
 
@@ -357,7 +360,126 @@ ul li {
 
 
 
+/* ========================================== */
+/* hide */
+
+.none {
+    display: none;
+}
+
+/* ================================================ */
 
 
 
 
+
+
+@media screen and (max-width:576px) {
+
+    /* navbar-section */
+
+    .navbar-section,
+    .nav-ul,
+    .ul-item,
+    .hero-box,
+    .video-cards,
+    .no-downloads-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* hero-section */
+
+    .hero-img,
+    .hero {
+        width: 100%;
+    }
+
+    .hero-section {
+        background-size: 100%;
+    }
+
+    .btn-primary {
+        margin: 50px 5px;
+    }
+
+    .container {
+        max-width: 375px;
+        margin-inline: auto;
+    }
+
+    /* funny-videos-section */
+
+    .funny-videos-txt {
+        text-align: center;
+    }
+
+
+    /* no-downloads-section */
+
+    .no-downloads-section-img{
+        height: 400px;
+
+    }
+
+    .no-downloads-section-txt {
+        text-align: center;
+        max-width: 375px;
+    }
+
+    .huamn-bing {
+        position: relative;
+        padding-top: 20px;
+        padding-left: 95px;
+        width: 70%;
+    }
+
+    .ledy-cat {
+        position: absolute;
+        width: 40%;
+        padding-left: 175px;
+        top: 160px;
+    }
+
+    /* games */
+
+    .primary-games,
+    .secondary-games {
+        flex-wrap: wrap;
+
+    }
+
+    /* foot */
+
+
+
+    .foot {
+        max-width: 375px;
+        height: 710px;
+        margin: 0 auto;
+    }
+
+    .foot-1 {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        row-gap: 0px;
+    }
+
+    .foot-p {
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        align-content: center;
+    }
+
+    .foot-3 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 0px;
+    }
+
+    .small {
+        width: 70vw;
+        text-align: center;
+    }
+}
