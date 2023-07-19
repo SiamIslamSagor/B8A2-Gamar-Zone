@@ -190,6 +190,8 @@ ul li {
     justify-content: space-between;
 }
 
+/* <=================== bonus section style start =======================> */
+
 .image-container {
     position: relative;
     display: inline-block;
@@ -233,6 +235,9 @@ ul li {
 .item-img {
     margin: 15px 0;
 }
+
+
+/* <=================== bonus section style end =======================> */
 
 
 /* no-downloads-section */
@@ -353,7 +358,7 @@ ul li {
 }
 
 
-/* =========== responsive for mobile ============= */
+/* ======== responsive for mobile ========= */
 
 @media screen and (max-width:576px) {
 
@@ -398,7 +403,7 @@ ul li {
 
     /* no-downloads-section */
 
-    .no-downloads-section-img{
+    .no-downloads-section-img {
         height: 400px;
 
     }
@@ -424,7 +429,7 @@ ul li {
 
     /* games */
 
-    .fst-game{
+    .fst-game {
         margin-top: 50px;
     }
 
@@ -469,12 +474,16 @@ ul li {
 }
 
 
-/* ============== responsive for tablet============= */
+
+/* <=================== bonus section style start =======================> */
+
+
+/* ======== responsive for tablet========= */
 
 @media screen and (min-width:576px) and (max-width:960px) {
     /* navbar-section */
 
-    .navbar-section{
+    .navbar-section {
         flex-direction: column;
         gap: 40px;
     }
@@ -482,18 +491,18 @@ ul li {
 
     /* hero section */
 
-    .hero-section{
+    .hero-section {
         background-size: contain;
 
     }
 
-    .hero-box{
+    .hero-box {
         flex-direction: column;
         max-width: 708px;
 
     }
 
-    .hero{
+    .hero {
         text-align: center;
         padding-top: 70px;
         margin-bottom: 50px;
@@ -503,7 +512,7 @@ ul li {
         margin: 50px 10px;
     }
 
-    .hero-img{
+    .hero-img {
         width: 100%;
     }
 
@@ -511,12 +520,12 @@ ul li {
 
 
     .funny-videos-section,
-    .games-section{
+    .games-section {
         max-width: 708px;
         margin: 50px auto;
     }
 
-    .video-cards{
+    .video-cards {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         column-gap: 15px;
@@ -524,18 +533,16 @@ ul li {
 
     /* no-downloads-section */
 
-    .no-downloads-section{
+    .no-downloads-section {
         flex-direction: column;
     }
 
-    .no-downloads-section-txt{
+    .no-downloads-section-txt {
         text-align: center;
         margin-bottom: 25px;
     }
 
-    .no-downloads-section-img{
-
-    }
+    .no-downloads-section-img {}
 
     .huamn-bing {
         position: relative;
@@ -558,11 +565,11 @@ ul li {
     }
 
     .primary-games,
-    .secondary-games{
+    .secondary-games {
         flex-wrap: wrap;
     }
 
-    .games-line-1{
+    .games-line-1 {
         margin-bottom: -10px;
     }
 
@@ -572,7 +579,7 @@ ul li {
 
     /* footer */
 
-    .foot{
+    .foot {
         max-width: 608px;
         margin: 0 auto;
     }
@@ -581,11 +588,14 @@ ul li {
         text-align: -webkit-center;
     }
 
-    .foot-1{
+    .foot-1 {
         gap: 40px;
     }
-    
+
     .foot-3 {
         gap: 15px;
     }
 }
+
+
+/* <=================== bonus section style end =======================> */
