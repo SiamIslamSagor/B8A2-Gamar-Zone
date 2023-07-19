@@ -59,10 +59,6 @@ a {
     max-width: 1440px;
     margin-inline: auto;
     padding-inline: var(--padding-inline-section);
-
-
-
-    /* margin-bottom: 500px; */
 }
 
 .gradient-txt {
@@ -162,22 +158,22 @@ ul li {
 /* hero-section */
 
 
-.hero-box{
+.hero-box {
     justify-content: space-between;
 }
 
-.hero-section{
+.hero-section {
     background-image: url('../images/Group\ 14.png');
     background-repeat: no-repeat;
 }
 
-.hero{
+.hero {
     flex-direction: column;
     justify-content: center;
     gap: 15px;
 }
 
-.hero-img{
+.hero-img {
     margin-top: 20px;
 }
 
@@ -185,7 +181,7 @@ ul li {
 /* funny-videos-section */
 
 
-.funny-videos-txt{
+.funny-videos-txt {
     flex-direction: column;
     align-items: center;
     margin-top: 120px;
@@ -198,9 +194,9 @@ ul li {
 .image-container {
     position: relative;
     display: inline-block;
-  }
-  
- .overlay {
+}
+
+.overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -214,28 +210,51 @@ ul li {
     justify-content: center;
     align-items: center;
     border-radius: 12px;
-  }
-  
-  .overlay:hover {
+}
+
+.overlay:hover {
     opacity: 1;
-  }
-  
-  .icon {
+}
+
+.icon {
     color: #fff;
     font-size: 2rem;
     margin-bottom: 0.5rem;
-  }
-  
-  .overlay a {
+}
+
+.overlay a {
     color: #FF42A5;
     font-size: 1.25rem;
-  }
-  
-  .video {
-    font-size: 45px;
-  }
+}
 
-.item-img{
+.video {
+    font-size: 45px;
+}
+
+.item-img {
     margin: 15px 0;
 }
 
+
+/* no-downloads-section */
+
+
+.no-downloads-section{
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 120px;
+}
+
+.no-downloads-section-txt{
+    text-align: end;
+}
+
+.no-downloads-section-img{
+    height: 800px;
+}
+
+.cat {
+    position: relative;
+    bottom: 250px;
+    right: 160px;
+}
