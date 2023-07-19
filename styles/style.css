@@ -239,17 +239,20 @@ ul li {
 /* no-downloads-section */
 
 
-.no-downloads-section{
+.no-downloads-section {
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-top: 120px;
 }
 
-.no-downloads-section-txt{
+.no-downloads-section-txt {
     text-align: end;
+    width: 520px;
+    position: relative;
+    left: 0px;
 }
 
-.no-downloads-section-img{
+.no-downloads-section-img {
     height: 800px;
 }
 
@@ -257,4 +260,50 @@ ul li {
     position: relative;
     bottom: 250px;
     right: 160px;
+}
+
+
+
+
+/* games-section */
+
+
+.games-section {
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    margin-top: 60px;
+    border-radius: 40px;
+}
+
+.primary-games,
+.secondary-games {
+    justify-content: space-around;
+    align-items: center;
+}
+
+.m-t{
+    margin-top: 60px;
+}
+
+.secondary-games {
+    justify-content: space-evenly;
+}
+
+.games-line-1 {
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 50px;
+    background: #FFFFFF;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+.games-line-1:hover{
+    border: 1px solid #FF42A5;
+    cursor: pointer;
+    transition: opacity 0.3s;
+
+}
+
+.games-line-1 h4:hover{
+    color: #FF42A5;
 }
